@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.header__nav__link {
+  color: #292F36;
+  font-family: "Jost";
+  font-style: normal;
+  line-height: normal;
+  font-size: 20px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  height: 760px;
+  background-image: url(/hw01/maket/img/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.banner__figure {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 434px;
+  margin-left: 40px;
+}
+.banner__figure__title {
+  color: #292F36;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
+  font-size: 65px;
+}
+.banner__figure__text {
+  color: #4D5053;
+  font-family: "Jost";
+  font-style: normal;
+  line-height: normal;
+  font-size: 22px;
+}
+.banner__figure__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 220px;
+  height: 75px;
+  border-radius: 20px;
+  background-color: #292F36;
+}
+.banner__figure__button__text {
+  font-family: "Jost Semibold";
+  font-style: normal;
+  line-height: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+.banner__figure__button:hover {
+  background-color: #CDA274;
+  transition: 0.3s;
+  border-color: #CDA274;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+}
+.project__title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
+  font-size: 50px;
+  color: #292F36;
+}
+.project__text {
+  margin-bottom: 100px;
+}
+.project__text__span {
+  font-family: "Jost";
+  font-style: normal;
+  line-height: normal;
+  font-size: 22px;
+  color: #4D5053;
+  margin-bottom: 100px;
+}
+.project__cards {
+  display: flex;
+  gap: 98px;
+  flex-wrap: wrap;
+}
+.project__cards__item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.project__cards__item__info {
+  display: flex;
+  justify-content: space-between;
+}
+.project__cards__item__info__left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.project__cards__item__info__left__title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #292F36;
+}
+.project__cards__item__info__left__text {
+  font-family: "Jost";
+  font-style: normal;
+  line-height: normal;
+  font-size: 22px;
+  color: #4D5053;
+}
+.project__cards__item__info__button {
+  width: 70px;
+  border-radius: 50%;
+  border-color: transparent;
+}
+.project__cards__item__info__button:hover {
+  background-color: #CDA274;
+  transition: 0.3s;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  height: 457px;
+  background-color: #F4F0EC;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.counter__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+
+.counter__item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counter__item__num {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
+  font-size: 85px;
+  color: #CDA274;
+}
+.counter__item__text {
+  font-family: "Jost";
+  font-style: normal;
+  line-height: normal;
+  font-size: 22px;
+  color: #3E3F3F;
+}
+
+.border {
+  border-right: 1px solid #CDA274;
+}/*# sourceMappingURL=style.css.map */
